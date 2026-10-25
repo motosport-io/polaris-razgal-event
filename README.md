@@ -21,8 +21,7 @@ npx serve .
 אחרי הפרסום מומלץ לעדכן ב-`index.html` את `og:image` (ואת `image` ב-JSON-LD) לכתובת מלאה של הדומיין.
 
 ## Google Tag Manager ומדידת לחיצות
-מזהה GTM עדיין לא הוגדר. כדי להפעיל: לעדכן ב-`<head>` של `index.html` את
-`window.GTM_ID = '';` למזהה הקונטיינר (למשל `'GTM-XXXXXXX'`).
+הדף טוען את קונטיינר GTM ‏`GTM-WWJ6R6C` (קוד ב-`<head>` ו-noscript אחרי `<body>`).
 
 כל לחיצה אמיתית על כפתור וואטסאפ שולחת ל-dataLayer (אין שליחה בטעינת הדף):
 `{ event: 'whatsapp_click', campaign: 'polaris-razgal-event', cta_location: 'main' | 'sticky' }`
