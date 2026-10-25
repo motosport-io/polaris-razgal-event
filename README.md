@@ -7,7 +7,8 @@
 ```
 index.html                      הדף כולו (סגנונות וסקריפט מוטמעים)
 vercel.json                     הגדרות Vercel (cache, headers)
-assets/images/event-poster.jpg  מודעת האירוע המקורית (1600×1600), מוצגת בשלמותה ללא חיתוך
+assets/images/event-poster.webp     מודעת האירוע המקורית (1080×1080), מוצגת בשלמותה ללא חיתוך
+assets/images/event-poster-og.jpg  אותה מודעה ב-JPG לתצוגה מקדימה בשיתוף (WhatsApp/Facebook)
 ```
 
 ## הרצה מקומית
